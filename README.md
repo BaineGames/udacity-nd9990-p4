@@ -8,7 +8,7 @@ This is split out into 4 specific directories:
 3. RestAPI Feed - folder contains code for the feed API broken apart from the monolitic application.
 4. RestAPI User - folder contains code for the user API broken apart from the monolitic application.
 
-There is also travisCI integration on this specific repository of mine as per the instructions.
+There is also travisCI integration on this specific repository of mine as per the instructions along with an extra deploy step to automatically push the docker images to my docker repo based on travisCI env variables.
 
 ## In order for you run this:
 1. make sure all dependencies are configured
