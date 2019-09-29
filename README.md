@@ -11,10 +11,11 @@ This is split out into 4 specific directories:
 There is also travisCI integration on this specific repository of mine as per the instructions.
 
 ## In order for you run this:
-1. checkout the code
-2. setup proper secrets per the docker files in each sub folder
-3. run docker-compose on the yaml file in Deployments/docker
-4. use browser to access
+1. make sure all dependencies are configured
+2. checkout the code
+3. setup proper secrets per the docker files in each sub folder
+4. run docker-compose on the yaml file in Deployments/docker
+5. use browser to access
 
 ## Dependencies
 
