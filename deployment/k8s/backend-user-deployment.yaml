@@ -28,29 +28,29 @@ spec:
             configMapKeyRef:
               name: env-config
               key: URL
-        - name: JWT_SECRET
+        - name: JWT_TOKEN
           valueFrom:
             configMapKeyRef:
               name: env-config
-              key: JWT_SECRET
-        - name: POSTGRESS_DB
+              key: JWT_TOKEN
+        - name: POSTGRES_DATABASE
           valueFrom:
             configMapKeyRef:
               name: env-config
-              key: POSTGRESS_DB
-        - name: POSTGRESS_HOST
+              key: POSTGRES_DATABASE
+        - name: POSTGRES_HOST
           valueFrom:
             configMapKeyRef:
               name: env-config
-              key: POSTGRESS_HOST
-        - name: POSTGRESS_PASSWORD
+              key: POSTGRES_HOST
+        - name: POSTGRES_PASSWORD
           valueFrom:
             secretKeyRef:
               name: env-secret
-              key: POSTGRESS_PASSWORD
-        - name: POSTGRESS_USERNAME
+              key: POSTGRES_PASSWORD
+        - name: POSTGRES_USERNAME
           valueFrom:
             secretKeyRef:
               name: env-secret
-              key: POSTGRESS_USERNAME
+              key: POSTGRES_USERNAME
       restartPolicy: Always
