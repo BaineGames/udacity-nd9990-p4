@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_MEDIA_BUCKET: udagram-ross-dev
+  AWS_PROFILE: default
+  AWS_REGION: us-west-1
+  JWT_TOKEN: helloworld
+  POSTGRES_DATABASE: udagramrossdev
+  POSTGRES_HOST: udagramrossdev.cdviln5i46at.us-west-1.rds.amazonaws.com
+  URL: http://localhost:8100
+metadata:
+  name: env-config
